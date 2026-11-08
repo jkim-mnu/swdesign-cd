@@ -2,7 +2,7 @@ import os
 from flask import Flask
 
 app = Flask(__name__)
-VERSION = "v0.1.0"
+VERSION = "v0.2.0"
 NEW_UI = os.getenv("FEATURE_NEW_UI", "off") == "on"
 
 @app.get("/")
