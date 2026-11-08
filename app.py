@@ -12,7 +12,7 @@ def home():
 
 @app.get("/health")
 def health():
-    return "fail\n"
+    return "ok\n"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
